@@ -14,7 +14,11 @@
  * Functions Prototypes
 */
 
+<<<<<<< HEAD
 int _printf(const char * const format, ...);
+=======
+int _printf(const char * const format, ...)
+>>>>>>> e9c1ff6a9eaa43190a640ca901ffa6b842ef069e
 int _putchar(char c);
 int printf_char(va_list args);
 int printf_string(va_list args);
