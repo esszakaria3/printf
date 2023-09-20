@@ -1,8 +1,8 @@
 #ifndef MAIN_H_INCLUDED
 #define MAIN_H_INCLUDED
 
-/* 
- * necessary libraries for the each task 
+/*
+ * necessary libraries for the each task
 */
 #include <stdarg.h>
 #include <stdio.h>
@@ -11,8 +11,9 @@
 
 
 /*
- *  Functions Prototypes
+ * Functions Prototypes
 */
+
 int _printf(const char * const format, ...)
 int _putchar(char c);
 int printf_char(va_list args);
@@ -25,4 +26,4 @@ int printf_int(va_list args);
 
 
 
-#endif // MAIN_H_INCLUDED
+#endif
